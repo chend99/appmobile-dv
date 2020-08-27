@@ -1,6 +1,6 @@
 //4- Define una función que dado un array de números nos dice si alguno es par.
 function algunoEsPar(array){
-    if (Array.isArray(array)) { //Array.isArray() devuelve 'true' si es un array.
+    if (Array.isArray(array)) { //Array.isArray() devuelve 'true' si es un array. (Quizás no sea necesario hacer esto.)
         return array.some(elem => elem % 2 === 0);
     }
     else{
