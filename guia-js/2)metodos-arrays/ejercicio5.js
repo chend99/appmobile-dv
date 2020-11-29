@@ -4,4 +4,4 @@ function aprobo(notasAlumno){
     var notaAprobacion = 4;
     return notasAlumno.every(elem => elem>=notaAprobacion);
 }
-console.log(aprobo(["8","6","2","4"]));
+console.log(aprobo([8,6,2,4]));
